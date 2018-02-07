@@ -1,3 +1,42 @@
-.body{
+header { background: black;}
+
+body {
+    background: url(../img/recipe-book.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
     font-family: 'Nanum Brush Script', cursive;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+    color: deeppink;
+    font-size: 80px;
+}
+#recipeTitle{
+    font-size: 60px;
+}
+
+h6{
+    color: pink;
+    font-size: 40px;
+}
+
+.recipeText{
+    font-size: 20px;
+
+}
+
+
+#recipeImg{
+    max-width: 100%;
+    height: 500px;
 }
